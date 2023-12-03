@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    /* outline: 1px solid rgba(0 0 0 / 20%); */
+}
+
+body {
+    font-family: system-ui;
+}
+
+  .responsive-image {
+    width: 100%;
+    height: auto;
+  }
