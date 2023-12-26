@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&family=Tangerine:wght@400;700&display=swap');
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  /* outline: 1px solid rgba(0 0 0 / 20%); */
+}
+
+:root {
+  --yellow: #FCE200;
+  --dark-blue: #101820;
+}
+
+body {
+  font-family: Poppins, system-ui;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--yellow);
+  
+}
+
+input,
+select,
+textarea,
+button {
+  font: inherit;
+  border-radius: 5px;
+  outline: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 60px;
+  background-color: #101820;
+  margin: auto;
+}
+
+header>div>span,
+header>div>a {
+  font-size: 20px;
+  padding: 0 0 0 30px;
+  display: inline-block;
+  z-index: 1;
+  margin: -20px;
+}
+
+nav {
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+}
+
+nav>ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav>ul>li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+  border-radius: 3px;
+}
+
+nav>ul>li:hover {
+  background-color: var(--dark-blue);
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+li>a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hero-img {
+  position: inherit;
+  height: auto;
+  width: 100vw;
+}
+
+#early-life,
+#career,
+#death,
+#legacy,
+#hornors {
+  scroll-margin-top: 50px;
+}
+
+.hero-h1 {
+  display: block;
+  padding: 0 15px;
+  margin-bottom: 5px;
+  color: var(--yellow);
+  font-size: 2.1rem;
+}
+
+.hero-label {
+  display: inline-block;
+  margin-top: -25px;
+  margin-left: -20px;
+  font-family: Tangerine;
+  font-size: 4rem;
+}
+
+.hero-bg-box {
+  position: absolute;
+  background-color: var(--dark-blue);
+  width: 24.25rem;
+  height: 8.398rem;
+  padding: 0 40px;
+  margin-top: -8.9rem;
+  margin-left: 10rem;
+  color: white;
+}
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--dark-blue);
+}
+
+.intro-image {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-basis: 30%;
+  z-index: -1;
+}
+
+.intro-content {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  color: white;
+}
+.intro-content-wrapper { 
+  padding: 50px 50px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  background-color: var(--dark-blue);
+  color: white;
+}
+.content-wrapper-inline { 
+  padding: 50px 50px;
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
+}
+
+.career {
+  display: flex;
+  justify-content: space-evenly;
+}
+.career-image {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-basis: 50%;
+  z-index: -1;
+}
+.career-content-wrapper { 
+  padding: 200px 50px;
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
+  flex-basis: 50%;
+  background-color: var(--dark-blue);
+  color: white;
+}
+
+.death {
+  display: flex;
+  background-color: var(--dark-blue);
+  justify-content: space-evenly;
+}
+.death-content {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  color: white;
+}
+.death-content-wrapper { 
+  padding: 200px 50px;
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
+  background-color: var(--dark-blue);
+  color: white;
+}
+.death-image {
+  height: auto;
+  width: 100%;
+  display: flex;
+  z-index: -1;
+}
+
+.honors {
+  display: flex;
+  background-color: var(--dark-blue);
+  justify-content: space-evenly;
+}
+.honors-content {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  color: white;
+}
+.honors-content-wrapper { 
+  padding: 200px 50px;
+  letter-spacing: 0.5px;
+  line-height: 1.5em;
+  background-color: var(--dark-blue);
+  color: white;
+}
+.honors-image {
+  height: auto;
+  width: 100%;
+  display: flex;
+  z-index: -1;
+}
+
+footer {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  color: var(--dark-blue);
+  padding: 20px 20px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.footer-content ul>li {
+  list-style: none;
+}
+footer h4 {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+      scroll-behavior: smooth;
+  }
+}
+@media (max-width: 1080px) {
+  .intro {
+    flex-direction: column-reverse;
+  }
+  .career {
+    flex-direction: column;
+  }
+  .death {
+    flex-direction: column;
+  }
+  .legacy {
+    flex-direction: column;
+  }
+  .honors {
+    flex-direction: column;
+  }
+}
