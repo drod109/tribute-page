@@ -37,6 +37,8 @@ button {
 }
 
 header {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,6 +56,17 @@ header>div>a {
   display: inline-block;
   z-index: 1;
   margin: -20px;
+}
+
+.menu-icon {
+  display: none; 
+  cursor: pointer;
+  z-index: 10; 
+  color: white; 
+  font-size: 30px; 
+  position: absolute; 
+  top: 10px; 
+  right: 40px; 
 }
 
 nav {
@@ -91,11 +104,6 @@ li>a {
   text-decoration: none;
 }
 
-.hero-img {
-  height: auto;
-  width: 100%;
-}
-
 #early-life,
 #career,
 #death,
@@ -104,31 +112,48 @@ li>a {
   scroll-margin-top: 50px;
 }
 
-.hero-h1 {
-  display: block;
-  padding: 0 15px;
-  margin-bottom: 5px;
-  color: var(--yellow);
-  font-size: 2.1rem;
+.hero-section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.hero-label {
-  display: inline-block;
-  margin-top: -25px;
-  margin-left: -20px;
-  font-family: Tangerine;
-  font-size: 4rem;
+.hero-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
 }
 
-.hero-bg-box {
+.hero-content {
   position: absolute;
+  text-align: center;
+  color: var(--yellow);
   background-color: var(--dark-blue);
-  width: 24.25rem;
-  height: 8.398rem;
-  padding: 0 40px;
-  margin-top: -8.9rem;
-  margin-left: 10rem;
+  top: 81%; 
+  left: 25%;
+  transform: translate(-50%, -50%);
+  padding: 1vw;
+  z-index: -1;
+}
+
+.hero-title {
+  position: relative;
+  font-size: 4vw;
+  margin: 0;
+  top: 5px;
+}
+
+.hero-subtitle {
+  position: relative;
+  font-family: Tangerine, Poppins, sans-serif;
+  font-size: 6vw; 
   color: white;
+  margin: 0;
+  top: -20px;
+  right: 5px;
 }
 .intro {
   display: flex;
@@ -150,6 +175,7 @@ li>a {
   display: flex;
   flex-basis: 50%;
   flex-direction: column;
+  justify-content: center;
   color: white;
 }
 .intro-content-wrapper { 
@@ -177,7 +203,11 @@ li>a {
   z-index: -1;
 }
 .career-content-wrapper { 
-  padding: 200px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  padding: 50px 50px;
   letter-spacing: 0.5px;
   line-height: 1.5em;
   flex-basis: 50%;
@@ -195,10 +225,11 @@ li>a {
   display: flex;
   flex-basis: 50%;
   flex-direction: column;
+  justify-content: center;
   color: white;
 }
-.death-content-wrapper { 
-  padding: 200px 50px;
+.death-content-wrapper {
+  padding: 50px 50px;
   letter-spacing: 0.5px;
   line-height: 1.5em;
   background-color: var(--dark-blue);
@@ -220,10 +251,12 @@ li>a {
   display: flex;
   flex-basis: 50%;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: white;
 }
 .honors-content-wrapper { 
-  padding: 200px 50px;
+  padding: 50px 50px;
   letter-spacing: 0.5px;
   line-height: 1.5em;
   background-color: var(--dark-blue);
@@ -251,7 +284,7 @@ footer {
 .footer-content ul>li {
   list-style: none;
 }
-footer h4 {
+footer h3 {
   text-align: center;
 }
 
@@ -260,6 +293,7 @@ footer h4 {
       scroll-behavior: smooth;
   }
 }
+
 @media (max-width: 1080px) {
   .intro {
     flex-direction: column-reverse;
@@ -275,5 +309,54 @@ footer h4 {
   }
   .honors {
     flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 5vw;
+  }
+  .hero-subtitle {
+    font-size: 7vw; 
+  }
+  .menu-icon {
+    display: block;
+  }
+  nav#navbar {
+    display: none; 
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--dark-blue); 
+    width: 100%;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    z-index: 15;
+  }
+  nav#navbar.active {
+    display: flex; 
+  }
+  nav#navbar ul {
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+  }
+  nav#navbar ul li {
+    padding: 10px 0;
+    text-align: center;
+  }
+  nav#navbar:not(.active) {
+    overflow: hidden;
+    height: 0;
+  }
+}
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 6vw;
+  }
+  .hero-subtitle {
+    position: relative;
+    font-size: 9vw;
+    top: -4px;
   }
 }
