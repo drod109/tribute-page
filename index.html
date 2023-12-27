@@ -32,7 +32,7 @@
       </nav>
     </header>
 
-    <div class="hero-section">
+    <section class="hero-section">
       <img
         class="hero-img"
         src="https://i.postimg.cc/66L6zLLW/bessie-coleman-hero.jpg"
@@ -42,10 +42,10 @@
         <h1 class="hero-title">Bessie Coleman</h1>
         <span class="hero-subtitle">Aviation Legend</span>
       </div>
-    </div>
+    </section>
 
     <main>
-      <section id="intro" class="intro">
+      <article id="intro" class="section-content">
         <div>
           <img
             src="https://i.postimg.cc/BbsS4Xsf/bessie-coleman-pilot-license.jpg"
@@ -76,9 +76,9 @@
             </p>
           </div>
         </div>
-      </section>
+      </article>
 
-      <section id="early-life">
+      <article id="early-life">
         <div class="content-wrapper-inline">
           <h2>Early Life</h2>
           <p>
@@ -108,9 +108,9 @@
             in the United States.
           </p>
         </div>
-      </section>
+      </article>
 
-      <section id="career" class="career">
+      <article id="career" class="section-content">
         <div>
           <img
             src="https://i.postimg.cc/HxbYqbqt/bessie-coleman-flight-school.jpg"
@@ -140,7 +140,7 @@
             </p>
           </div>
         </div>
-      </section>
+      </article>
       <div class="content-wrapper-inline">
         <h3>
           On September 3, 1922, in a borrowed Curtiss JN&#45;4D Jenny at Curtiss
@@ -158,7 +158,7 @@
           barnstorming—one of the few jobs in aviation at this time.
         </p>
       </div>
-      <section id="death" class="death">
+      <article id="death" class="section-content">
         <div>
           <img
             src="https://i.postimg.cc/hvrSjcPz/bessie-coleman-death.jpg"
@@ -182,9 +182,9 @@
             </p>
           </div>
         </div>
-      </section>
+      </article>
 
-      <section id="legacy">
+      <article id="legacy" class="content-section">
         <div class="content-wrapper-inline">
           <h2>Legacy</h2>
           <p>
@@ -216,13 +216,13 @@
             Lawrence Jr., and Mae Jemison.
           </p>
         </div>
-      </section>
+      </article>
 
-      <section id="honors" class="honors">
+      <article id="honors" class="section-content">
         <div>
           <img
             src="https://i.postimg.cc/KY6cp0Hz/bessie-coleman-club.png"
-            alt="A group photo of the Bessie Coleman Club"
+            alt="A group photo of the Bessie Coleman Club photo"
             class="honors-image"
           />
         </div>
@@ -240,7 +240,7 @@
             </p>
           </div>
         </div>
-      </section>
+      </article>
     </main>
     <footer>
       <h2>More Information & Inspirational Mentions</h2>
@@ -294,10 +294,13 @@
       ></a>
     </div>
     <script>
-      function toggleMenu() {
-        var navbar = document.getElementById("navbar");
-        navbar.classList.toggle("active");
-      }
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .querySelector(".menu-icon")
+          .addEventListener("click", function () {
+            document.querySelector("#navbar").classList.toggle("active");
+          });
+      });
     </script>
   </body>
 </html>

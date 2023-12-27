@@ -125,6 +125,15 @@ footer>h2 {
   text-align: center;
 }
 
+.section-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--dark-blue);
+  color: white;
+}
+
 #early-life,
 #career,
 #death,
@@ -172,15 +181,6 @@ footer>h2 {
   top: -10px;
   right: 5px;
 }
-
-.intro {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: var(--dark-blue);
-  color: white;
-}
 .intro-image {
   height: auto;
   width: 100%;
@@ -205,13 +205,6 @@ footer>h2 {
   line-height: 1.5em;
 }
 
-.career {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-color: var(--dark-blue);
-  color: white;
-}
 .career-image {
   height: auto;
   width: 100%;
@@ -232,14 +225,6 @@ footer>h2 {
   flex-basis: 50%;
 }
 
-.death {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: var(--dark-blue);
-  color: white;
-}
 .death-image {
   height: auto;
   width: 100%;
@@ -259,12 +244,6 @@ footer>h2 {
   line-height: 1.5em;
 }
 
-.honors {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: var(--dark-blue);
-  color: white;
-}
 .honors-content {
   display: flex;
   flex-basis: 50%;
