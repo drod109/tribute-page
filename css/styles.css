@@ -21,7 +21,7 @@ body {
   flex-direction: column;
 }
 
-body > footer {
+body>footer {
   margin-top: auto;
 }
 
