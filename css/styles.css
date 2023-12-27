@@ -115,6 +115,14 @@ li>a {
   color: inherit;
   text-decoration: none;
 }
+h2 {
+  font-weight: 900;
+  font-size: 2.8rem;
+  line-height: 1em;
+}
+.content-wrapper-inline>h2 {
+  text-align: center;
+}
 
 #early-life,
 #career,
