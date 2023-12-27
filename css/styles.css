@@ -58,6 +58,7 @@ header {
   height: 60px;
   background-color: #101820;
   margin: auto;
+  z-index: 2;
 }
 
 header>div>span,
@@ -65,14 +66,14 @@ header>div>a {
   font-size: 20px;
   padding: 0 0 0 30px;
   display: inline-block;
-  z-index: 1;
+  z-index: 2;
   margin: -20px;
 }
 
 .menu-icon {
   display: none; 
   cursor: pointer;
-  z-index: 10; 
+  z-index: 2; 
   color: white; 
   font-size: 30px; 
   position: absolute; 
@@ -134,7 +135,7 @@ li>a {
   width: 100%;
   height: auto;
   object-fit: cover;
-  z-index: -1;
+  z-index: -2;
 }
 .hero-content {
   position: absolute;
@@ -145,13 +146,13 @@ li>a {
   left: 25%;
   transform: translate(-50%, -50%);
   padding: 1vw;
-  z-index: -1;
+  z-index: -2;
 }
 .hero-title {
   position: relative;
   font-size: 4vw;
   margin: 0;
-  top: 5px;
+  top: 20px;
 }
 .hero-subtitle {
   position: relative;
@@ -159,7 +160,7 @@ li>a {
   font-size: 6vw; 
   color: white;
   margin: 0;
-  top: -20px;
+  top: -10px;
   right: 5px;
 }
 
@@ -321,13 +322,17 @@ footer h3 {
   .honors {
     flex-direction: column;
   }
+  .hero-subtitle {
+    top: 3px;
+  }
 }
 @media (max-width: 768px) {
   .hero-title {
     font-size: 5vw;
   }
   .hero-subtitle {
-    font-size: 7vw; 
+    font-size: 7vw;
+    top: 3px;
   }
   .menu-icon {
     display: block;
@@ -362,12 +367,16 @@ footer h3 {
   }
 }
 @media (max-width: 480px) {
+  .hero-content {
+    z-index: 1;
+  }
   .hero-title {
     font-size: 6vw;
+    top: 7px;
   }
   .hero-subtitle {
     position: relative;
     font-size: 9vw;
-    top: -4px;
+    top: 0px;
   }
 }
