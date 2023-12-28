@@ -219,7 +219,7 @@ footer>h2 {
   justify-content: center;
 }
 .career-content-wrapper { 
-  padding: 0px 50px;
+  padding: 50px 50px;
   letter-spacing: 0.5px;
   line-height: 1.5em;
   flex-basis: 50%;
@@ -295,19 +295,10 @@ footer h3 {
 }
 
 @media (max-width: 1080px) {
-  .intro {
+  #intro.section-content {
     flex-direction: column-reverse;
   }
-  .career {
-    flex-direction: column;
-  }
-  .death {
-    flex-direction: column;
-  }
-  .legacy {
-    flex-direction: column;
-  }
-  .honors {
+  .section-content {
     flex-direction: column;
   }
   .hero-subtitle {
