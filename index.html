@@ -15,10 +15,11 @@
     <link rel="stylesheet" href="/css/styles.css" />
     <title>Bessie Coleman | Tribute Page</title>
   </head>
+
   <body>
     <header>
       <div class="logo"><a href="#">Bessie Coleman</a></div>
-      <div class="menu-icon" onclick="toggleMenu()">
+      <div class="menu-icon">
         <span class="fas fa-bars"></span>
       </div>
       <nav id="navbar">
@@ -207,7 +208,7 @@
             flyers she replied,
             <q>That&#39;s it... You just called it for me!</q> She was determine
             to become a pilot. But in the United States, Black men were not
-            welcome in aviation, let alone Black women.
+            welcome n aviation, let alone Black women.
           </p>
           <p>
             Coleman&#39;s example proved an inspiration for a number of pioneers
@@ -293,6 +294,14 @@
         ><i class="fab fa-facebook-square"></i
       ></a>
     </div>
-    <script src="/js/index.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .querySelector(".menu-icon")
+          .addEventListener("click", function () {
+            document.querySelector("#navbar").classList.toggle("active");
+          });
+      });
+    </script>
   </body>
 </html>

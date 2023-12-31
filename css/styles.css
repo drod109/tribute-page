@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&family=Tangerine:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&family=Tangerine:wght@400;700&display=swap");
 
 *,
 ::after,
@@ -8,11 +8,11 @@
 }
 
 :root {
-  --yellow: #FCE200;
+  --yellow: #fce200;
   --dark-blue: #101820;
 }
 
-html, 
+html,
 body {
   font-family: Poppins, system-ui;
   margin: 0;
@@ -21,7 +21,7 @@ body {
   flex-direction: column;
 }
 
-body>footer {
+body > footer {
   margin-top: auto;
 }
 
@@ -31,7 +31,6 @@ a {
 }
 a:hover {
   color: var(--yellow);
-  
 }
 i {
   font-size: 2rem;
@@ -61,8 +60,8 @@ header {
   z-index: 2;
 }
 
-header>div>span,
-header>div>a {
+header > div > span,
+header > div > a {
   font-size: 20px;
   padding: 0 0 0 30px;
   display: inline-block;
@@ -71,14 +70,14 @@ header>div>a {
 }
 
 .menu-icon {
-  display: none; 
+  display: none;
   cursor: pointer;
-  z-index: 2; 
-  color: white; 
-  font-size: 30px; 
-  position: absolute; 
-  top: 10px; 
-  right: 40px; 
+  z-index: 2;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  right: 40px;
 }
 
 nav {
@@ -87,7 +86,7 @@ nav {
   height: 50px;
 }
 
-nav>ul {
+nav > ul {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -97,7 +96,7 @@ nav>ul {
   height: 100%;
 }
 
-nav>ul>li {
+nav > ul > li {
   color: #dfdfe2;
   margin: 0 0.2rem;
   padding: 0.2rem;
@@ -105,13 +104,13 @@ nav>ul>li {
   border-radius: 3px;
 }
 
-nav>ul>li:hover {
+nav > ul > li:hover {
   background-color: var(--dark-blue);
   color: var(--yellow);
   cursor: pointer;
 }
 
-li>a {
+li > a {
   color: inherit;
   text-decoration: none;
 }
@@ -120,8 +119,8 @@ h2 {
   font-size: 2.8rem;
   line-height: 1em;
 }
-.content-wrapper-inline>h2,
-footer>h2 {
+.content-wrapper-inline > h2,
+footer > h2 {
   text-align: center;
 }
 
@@ -160,7 +159,7 @@ footer>h2 {
   text-align: center;
   color: var(--yellow);
   background-color: var(--dark-blue);
-  top: 81%; 
+  top: 81%;
   left: 25%;
   transform: translate(-50%, -50%);
   padding: 1vw;
@@ -175,7 +174,7 @@ footer>h2 {
 .hero-subtitle {
   position: relative;
   font-family: Tangerine, Poppins, sans-serif;
-  font-size: 6vw; 
+  font-size: 6vw;
   color: white;
   margin: 0;
   top: -10px;
@@ -192,15 +191,15 @@ footer>h2 {
   display: flex;
   flex-basis: 50%;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
 }
-.intro-content-wrapper { 
-  padding: 50px 50px;
+.intro-content-wrapper {
+  padding: 50px 20px;
   letter-spacing: 1px;
   line-height: 1.5em;
 }
-.content-wrapper-inline { 
-  padding: 50px 50px;
+.content-wrapper-inline {
+  padding: 50px 30px;
   letter-spacing: 0.5px;
   line-height: 1.5em;
 }
@@ -218,8 +217,8 @@ footer>h2 {
   flex-basis: 50%;
   justify-content: center;
 }
-.career-content-wrapper { 
-  padding: 50px 50px;
+.career-content-wrapper {
+  padding: 50px 20px;
   letter-spacing: 0.5px;
   line-height: 1.5em;
   flex-basis: 50%;
@@ -238,8 +237,8 @@ footer>h2 {
   flex-direction: column;
   justify-content: center;
 }
-.death-content-wrapper { 
-  padding: 50px 50px;
+.death-content-wrapper {
+  padding: 50px 20px;
   letter-spacing: 1px;
   line-height: 1.5em;
 }
@@ -251,8 +250,8 @@ footer>h2 {
   align-items: center;
   justify-content: center;
 }
-.honors-content-wrapper { 
-  padding: 50px 50px;
+.honors-content-wrapper {
+  padding: 50px 20px;
   letter-spacing: 0.5px;
   line-height: 1.5em;
 }
@@ -275,22 +274,22 @@ footer {
   justify-content: space-evenly;
   flex-direction: row;
 }
-.footer-content ul>li {
+.footer-content ul > li {
   list-style: none;
 }
 footer h3 {
   text-align: center;
 }
 .footer-bottom {
-  background-color: var(--dark-blue); 
-  color: white; 
-  text-align: center; 
-  padding: 10px 0; 
+  background-color: var(--dark-blue);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   * {
-      scroll-behavior: smooth;
+    scroll-behavior: smooth;
   }
 }
 
@@ -317,11 +316,11 @@ footer h3 {
     display: block;
   }
   nav#navbar {
-    display: none; 
+    display: none;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: var(--dark-blue); 
+    background-color: var(--dark-blue);
     width: 100%;
     position: fixed;
     top: 60px;
@@ -329,7 +328,7 @@ footer h3 {
     z-index: 15;
   }
   nav#navbar.active {
-    display: flex; 
+    display: flex;
   }
   nav#navbar ul {
     width: 100%;
