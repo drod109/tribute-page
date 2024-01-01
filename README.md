@@ -9,8 +9,6 @@ This is a solution to the [freeCodeCamp.org](https://www.freecodecamp.org/learn/
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -27,7 +25,8 @@ This is a solution to the [freeCodeCamp.org](https://www.freecodecamp.org/learn/
 
 ## My process
 
-- I took my inspiration from [National Air and Space Museum | Bessie Coleman](https://airandspace.si.edu/explore/stories/bessie-coleman)
+I took my inspiration from [National Air and Space Museum | Bessie Coleman](https://airandspace.si.edu/explore/stories/bessie-coleman) page.
+Now that I have the design pattern I will take a screenshot and mock up where I believe either flex or grid items need to be pladed. Once that I have done that I will be being to write a semantic html structure before the styling process is completed.
 
 ### Built with
 
