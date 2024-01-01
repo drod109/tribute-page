@@ -19,7 +19,7 @@ This is a solution to the [freeCodeCamp.org](https://www.freecodecamp.org/learn/
 
 ### Links
 
-- Code Repo: [Github Repo](https://github.com/drod109/tribute-page)
+- Code Repo: [Github](https://github.com/drod109/tribute-page)
 - Live Site 1 URL: [QR Code Component | Live Preview](https://drod109.github.io/tribute-page/)
 - Live Site 2 URL: [QR Code Component | Live Preview](https://codepen.io/drodrigues/full/vYPEJbV)
 
