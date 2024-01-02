@@ -1,6 +1,6 @@
 # freeCodeCamp.org - Tribute Page Solution
 
-This is a solution to the [freeCodeCamp.org](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page). freeCodeCamp.org challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [freeCodeCamp.org](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page) tribute page challenge. freeCodeCamp.org challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
