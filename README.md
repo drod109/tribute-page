@@ -1,6 +1,6 @@
 # freeCodeCamp.org - Tribute Page Solution
 
-This is a solution to the [freeCodeCamp.org](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page). freeCodeCamp.org challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [freeCodeCamp.org](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page) tribute page challenge. freeCodeCamp.org challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -20,8 +20,7 @@ This is a solution to the [freeCodeCamp.org](https://www.freecodecamp.org/learn/
 ### Links
 
 - Code Repo: [Github](https://github.com/drod109/tribute-page)
-- Live Site 1 URL: [QR Code Component | Live Preview](https://drod109.github.io/tribute-page/)
-- Live Site 2 URL: [QR Code Component | Live Preview](https://codepen.io/drodrigues/full/vYPEJbV)
+- Live Site URL: [QR Code Component | Live Preview](https://codepen.io/drodrigues/full/vYPEJbV)
 
 ## My process
 
