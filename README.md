@@ -20,7 +20,7 @@ This is a solution to the [freeCodeCamp.org](https://www.freecodecamp.org/learn/
 ### Links
 
 - Code Repo: [Github](https://github.com/drod109/tribute-page)
-- Live Site URL: [QR Code Component | Live Preview](https://codepen.io/drodrigues/full/vYPEJbV)
+- Live Site URL: [Coleman Tribute | Live Preview](https://codepen.io/drodrigues/full/vYPEJbV)
 
 ## My process
 
