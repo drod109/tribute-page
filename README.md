@@ -20,7 +20,8 @@ This is a solution to the [freeCodeCamp.org](https://www.freecodecamp.org/learn/
 ### Links
 
 - Code Repo: [Github](https://github.com/drod109/tribute-page)
-- Live Site URL: [Coleman Tribute | Live Preview](https://codepen.io/drodrigues/full/vYPEJbV)
+- Live Site Primary URL: [Coleman Tribute | Live Preview](https://drod109.github.io/tribute-page/)
+- Live Site Backup URL: [Coleman Tribute | Live Preview](https://codepen.io/drodrigues/full/vYPEJbV)
 
 ## My process
 
